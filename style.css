@@ -1,40 +1,178 @@
-body{
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0%;
     margin-top: 0%;
     background-color: #9a745e;
+    text-align: center;
 }
 
 img#Maunga_club {
     width: 200px;
-    float:inline-start;
+    float: inline-start;
 }
-nav{
+
+
+nav {
     margin-left: 50%;
 }
-nav li{
+
+nav li {
     display: inline-block;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     font-size: large;
     color: antiquewhite;
 }
-#heading{
+
+h1 {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+h2 {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+h3 {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.home-page li{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    width: 1540px;
+    margin-left: 10%;
+}
+
+/* This is for the stuff */
+
+#heading {
     background-color: #9a745e;
     margin: 0%;
 }
-.button{
+
+.button {
     padding: 15px 0px;
 }
 
-header{
+header {
     margin: 0px;
 }
-img#Cabin{
+
+img#Cabin {
     width: 40%;
+}
+
+/* Footer styling */
+
+.footer {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #dec8b5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 150%;
+    margin: auto;
+}
+
+img#footer-picture {
+    width: 15%;
+    float: inline-start;
+    margin-left: 100px;
+}
+
+/* Accommodation stuff*/
+
+.accommodation {
+    width: 1540px;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+.accommodation img {
+    width: 300px;
+    margin-left: 5%;
+}
+
+img#kereru {
+    width: 50%;
+}
+
+img#kakapo {
+    width: 50%;
+}
+
+img#pukeko {
+    width: 50%;
+}
+
+.accommodation h1 {
+    text-align: center;
+}
+
+.accommodation h2 {
+    text-align: center;
+}
+
+.accommodation h3 {
+    text-align: center;
+}
+
+.accommodation table {
+    border: solid 2px #000;
+    margin: 50px auto;
+    background-color: #ac8d72;
+}
+
+.accommodation th {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.accommodation td {
+    padding: 15px;
+}
+
+/* Contacts Stuff */
+.social-media {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.social-media img {
+    width: 100px;
+}
+
+.social-media p {
+    text-align: center;
+}
+.club-membership li{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    width: 1540px;
+    margin-left: 10%;
+    
+}
+
+/* Gallery */
+.first-part{
+    width: 1800px;
+    margin-left: 4%;
+}
+.big-gallery{
+    font-size: 40px;
+}
+.first-part img{
+    width: 400px;
+    padding: 15px;
 }

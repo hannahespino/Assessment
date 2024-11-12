@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <title>Maunga Club</title>
     </head>
 
@@ -14,23 +17,37 @@
                 <div class="heading-block">
                 <nav>
                     <ul>
-                    <li><a href="index.html" class="button">Main</a></li>
-                    <li><a href="aboutus.html" class="button">About Us</a></li>
-                    <li><a href="contacts.html" class="button">Contacts</a></li>
+                    <li><a href="index.html" class="button">Home</a></li>
                     <li><a href="accommodation.html" class="button">Accommodation</a></li>
+                    <li><a href="gallery.html" class="button">Gallery</a></li>
+                    <li><a href="contacts.html" class="button">Contacts</a></li>
                     </ul>
                 </nav> 
                 </div>
         </section>
         </header>
-        <div class="first-part">
+        <div class="home-page">
             <img id="Main-image" src="images/mountain_view_1.jpg">
             <h1>Maunga Club</h1>
             <h2>Where Comfort meets Convenience.</h2>
+            <h3>Maunga Club hire snow/ski chalets (cabins) at the mountain to Club members. They would like a website to provide information about the Club and its chalets, and to encourage people to join the Club.
+            </h3>
+            <h1>"Chalets"</h1>
+                <li>Only Club members can access the chalets.</li>
+                <li>All chalet bookings must be from Friday to Sunday.</li>
+                <li>Chalets offer shared accommodation for between 6 and 40 people per chalet.</li>
+                <li>All three chalets are on the mountain, so you can ski to and from the chalets.</li>
+                <li>The mountain gives 550 hectares of skiing/snowboarding area, and the longest ski/snowboard season in New Zealand.</li>
+                <li>The table on the "ACCOMMODATION PAGE" summarises key features of the three chalets, 
+                    including the maximum number of adults and children that each chalet can accommodate.</li>
         </div>
         <div class="menu">
-        <img id="Cabin" src="images/maunga_club_cabin.jpg">
+            <a data-fancybox="gallery" href="images/maunga_club_cabin.jpg"> <img src="images/maunga_club_cabin.jpg"></a>
         </div>
-               
+        <!-- Display the footer -->
+        <div class="footer">
+            <img id="footer-picture" src="images/Maunga_Club_white.png">
+            <p><small>&copy; Maunga Club 2024 - Where Comfort meets Convenience</small></p>
+        </div>
     </body>
 </html>
